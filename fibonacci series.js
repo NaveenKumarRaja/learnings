@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("input").focus(function(){
+    $("input").click(function(){
     });
 });
     function fibonacci(num){ 
@@ -11,5 +11,6 @@ $(document).ready(function(){
         first=second; 
         second=add; 
     } 
+    console.log('test');
     return second; 
 } 
